@@ -218,47 +218,63 @@ section {
   margin-top: 17px;
 }
 
-/* VIDEO GALLERY */
 
-.video-section {
-  background: #f8eeeb;
-}
+<!-- VIDEO GALLERY -->
 
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  max-width: 1050px;
-  margin: auto;
-}
+<section class="video-section" id="video">
 
-.video-card {
-  background: white;
-  padding: 12px;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px #795b5510;
-  transition: .3s;
-}
+  <div class="heading">
+    <small>MOVING MEMORIES</small>
+    <h2>Our Video Gallery 🎬</h2>
+    <p>Little videos, unforgettable moments.</p>
+  </div>
 
-.video-card:hover {
-  transform: translateY(-5px);
-}
+  <div class="video-grid">
 
-.video-card video {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  display: block;
-  object-fit: cover;
-  background: #eadbdd;
-  border-radius: 8px;
-}
+    <div class="video-card">
+      <video controls playsinline preload="metadata">
+        <source src="./video1.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <h3>Our Moments 01 ♡</h3>
+    </div>
 
-.video-card h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 15px 5px 5px;
-}
+    <div class="video-card">
+      <video controls playsinline preload="metadata">
+        <source src="./video2.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <h3>Our Moments 02 ♡</h3>
+    </div>
+
+    <div class="video-card">
+      <video controls playsinline preload="metadata">
+        <source src="./video3.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <h3>Our Moments 03 ♡</h3>
+    </div>
+
+    <div class="video-card">
+      <video controls playsinline preload="metadata">
+        <source src="./video4.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <h3>Our Moments 04 ♡</h3>
+    </div>
+
+    <div class="video-card">
+      <video controls playsinline preload="metadata">
+        <source src="./video5.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <h3>Our Moments 05 ♡</h3>
+    </div>
+
+  </div>
+
+</section>
+
 
 /* MESSAGE */
 
